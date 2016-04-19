@@ -14,6 +14,33 @@
 		B03A23DC1CC53D3C00DDE48A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03A23DA1CC53D3C00DDE48A /* LaunchScreen.storyboard */; };
 		B03A23E71CC53D3C00DDE48A /* babybadassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A23E61CC53D3C00DDE48A /* babybadassTests.swift */; };
 		B03A23F21CC53D3C00DDE48A /* babybadassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A23F11CC53D3C00DDE48A /* babybadassUITests.swift */; };
+		B03A24001CC544F700DDE48A /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A23FF1CC544F700DDE48A /* Animal.swift */; };
+		B03A24021CC547A600DDE48A /* Mammal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24011CC547A600DDE48A /* Mammal.swift */; };
+		B03A24041CC5F75F00DDE48A /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24031CC5F75F00DDE48A /* Dog.swift */; };
+		B03A24061CC5F80800DDE48A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24051CC5F80800DDE48A /* Cat.swift */; };
+		B03A240B1CC603F000DDE48A /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A240A1CC603F000DDE48A /* Bird.swift */; };
+		B03A240D1CC6047800DDE48A /* Reptile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A240C1CC6047800DDE48A /* Reptile.swift */; };
+		B03A240F1CC6072A00DDE48A /* Amphibian.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A240E1CC6072A00DDE48A /* Amphibian.swift */; };
+		B03A24111CC6075000DDE48A /* FishClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24101CC6075000DDE48A /* FishClass.swift */; };
+		B03A24141CC607EB00DDE48A /* Alligator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24131CC607EB00DDE48A /* Alligator.swift */; };
+		B03A24161CC6082900DDE48A /* Bunny.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24151CC6082900DDE48A /* Bunny.swift */; };
+		B03A24191CC6086300DDE48A /* Chick.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24181CC6086300DDE48A /* Chick.swift */; };
+		B03A241B1CC608D900DDE48A /* Arthropod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A241A1CC608D900DDE48A /* Arthropod.swift */; };
+		B03A241E1CC6094E00DDE48A /* Crab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A241D1CC6094E00DDE48A /* Crab.swift */; };
+		B03A24201CC6099700DDE48A /* Elephant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A241F1CC6099700DDE48A /* Elephant.swift */; };
+		B03A24231CC60A5200DDE48A /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24221CC60A5200DDE48A /* Fish.swift */; };
+		B03A24261CC60AD700DDE48A /* Frog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24251CC60AD700DDE48A /* Frog.swift */; };
+		B03A24281CC60B7400DDE48A /* Giraffe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24271CC60B7400DDE48A /* Giraffe.swift */; };
+		B03A242A1CC60BBE00DDE48A /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24291CC60BBE00DDE48A /* Lion.swift */; };
+		B03A242C1CC60BF400DDE48A /* Owl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A242B1CC60BF400DDE48A /* Owl.swift */; };
+		B03A242E1CC60C7100DDE48A /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A242D1CC60C7100DDE48A /* Panda.swift */; };
+		B03A24301CC60C9D00DDE48A /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A242F1CC60C9D00DDE48A /* Penguin.swift */; };
+		B03A24321CC60E0C00DDE48A /* Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24311CC60E0C00DDE48A /* Pig.swift */; };
+		B03A24341CC60E3B00DDE48A /* Seahorse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24331CC60E3B00DDE48A /* Seahorse.swift */; };
+		B03A24361CC60E6A00DDE48A /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24351CC60E6A00DDE48A /* Snake.swift */; };
+		B03A24381CC60EBA00DDE48A /* Turtle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24371CC60EBA00DDE48A /* Turtle.swift */; };
+		B03A243A1CC60EE800DDE48A /* Whale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A24391CC60EE800DDE48A /* Whale.swift */; };
+		B03A243C1CC60F1B00DDE48A /* Zebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03A243B1CC60F1B00DDE48A /* Zebra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +74,33 @@
 		B03A23ED1CC53D3C00DDE48A /* babybadassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = babybadassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03A23F11CC53D3C00DDE48A /* babybadassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babybadassUITests.swift; sourceTree = "<group>"; };
 		B03A23F31CC53D3C00DDE48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03A23FF1CC544F700DDE48A /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		B03A24011CC547A600DDE48A /* Mammal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mammal.swift; sourceTree = "<group>"; };
+		B03A24031CC5F75F00DDE48A /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		B03A24051CC5F80800DDE48A /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		B03A240A1CC603F000DDE48A /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		B03A240C1CC6047800DDE48A /* Reptile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reptile.swift; sourceTree = "<group>"; };
+		B03A240E1CC6072A00DDE48A /* Amphibian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amphibian.swift; sourceTree = "<group>"; };
+		B03A24101CC6075000DDE48A /* FishClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishClass.swift; sourceTree = "<group>"; };
+		B03A24131CC607EB00DDE48A /* Alligator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alligator.swift; sourceTree = "<group>"; };
+		B03A24151CC6082900DDE48A /* Bunny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bunny.swift; sourceTree = "<group>"; };
+		B03A24181CC6086300DDE48A /* Chick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chick.swift; sourceTree = "<group>"; };
+		B03A241A1CC608D900DDE48A /* Arthropod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arthropod.swift; sourceTree = "<group>"; };
+		B03A241D1CC6094E00DDE48A /* Crab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crab.swift; sourceTree = "<group>"; };
+		B03A241F1CC6099700DDE48A /* Elephant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elephant.swift; sourceTree = "<group>"; };
+		B03A24221CC60A5200DDE48A /* Fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		B03A24251CC60AD700DDE48A /* Frog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frog.swift; sourceTree = "<group>"; };
+		B03A24271CC60B7400DDE48A /* Giraffe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Giraffe.swift; sourceTree = "<group>"; };
+		B03A24291CC60BBE00DDE48A /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		B03A242B1CC60BF400DDE48A /* Owl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owl.swift; sourceTree = "<group>"; };
+		B03A242D1CC60C7100DDE48A /* Panda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
+		B03A242F1CC60C9D00DDE48A /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
+		B03A24311CC60E0C00DDE48A /* Pig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pig.swift; sourceTree = "<group>"; };
+		B03A24331CC60E3B00DDE48A /* Seahorse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seahorse.swift; sourceTree = "<group>"; };
+		B03A24351CC60E6A00DDE48A /* Snake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		B03A24371CC60EBA00DDE48A /* Turtle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turtle.swift; sourceTree = "<group>"; };
+		B03A24391CC60EE800DDE48A /* Whale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whale.swift; sourceTree = "<group>"; };
+		B03A243B1CC60F1B00DDE48A /* Zebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zebra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +151,7 @@
 		B03A23D01CC53D3C00DDE48A /* babybadass */ = {
 			isa = PBXGroup;
 			children = (
+				B03A24091CC6035C00DDE48A /* models */,
 				B03A23D11CC53D3C00DDE48A /* AppDelegate.swift */,
 				B03A23D31CC53D3C00DDE48A /* ViewController.swift */,
 				B03A23D51CC53D3C00DDE48A /* Main.storyboard */,
@@ -123,6 +178,96 @@
 				B03A23F31CC53D3C00DDE48A /* Info.plist */,
 			);
 			path = babybadassUITests;
+			sourceTree = "<group>";
+		};
+		B03A24071CC6018800DDE48A /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				B03A24241CC60AC600DDE48A /* amphibians */,
+				B03A24211CC609E100DDE48A /* fish */,
+				B03A241C1CC6092800DDE48A /* arthropods */,
+				B03A24171CC6085800DDE48A /* birds */,
+				B03A24121CC607C100DDE48A /* reptiles */,
+				B03A24081CC6032B00DDE48A /* mammals */,
+				B03A24011CC547A600DDE48A /* Mammal.swift */,
+				B03A240A1CC603F000DDE48A /* Bird.swift */,
+				B03A240C1CC6047800DDE48A /* Reptile.swift */,
+				B03A240E1CC6072A00DDE48A /* Amphibian.swift */,
+				B03A24101CC6075000DDE48A /* FishClass.swift */,
+				B03A241A1CC608D900DDE48A /* Arthropod.swift */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		B03A24081CC6032B00DDE48A /* mammals */ = {
+			isa = PBXGroup;
+			children = (
+				B03A24031CC5F75F00DDE48A /* Dog.swift */,
+				B03A24051CC5F80800DDE48A /* Cat.swift */,
+				B03A24151CC6082900DDE48A /* Bunny.swift */,
+				B03A241F1CC6099700DDE48A /* Elephant.swift */,
+				B03A24271CC60B7400DDE48A /* Giraffe.swift */,
+				B03A24291CC60BBE00DDE48A /* Lion.swift */,
+				B03A242D1CC60C7100DDE48A /* Panda.swift */,
+				B03A24311CC60E0C00DDE48A /* Pig.swift */,
+				B03A24391CC60EE800DDE48A /* Whale.swift */,
+				B03A243B1CC60F1B00DDE48A /* Zebra.swift */,
+			);
+			name = mammals;
+			sourceTree = "<group>";
+		};
+		B03A24091CC6035C00DDE48A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B03A23FF1CC544F700DDE48A /* Animal.swift */,
+				B03A24071CC6018800DDE48A /* classes */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		B03A24121CC607C100DDE48A /* reptiles */ = {
+			isa = PBXGroup;
+			children = (
+				B03A24131CC607EB00DDE48A /* Alligator.swift */,
+				B03A24351CC60E6A00DDE48A /* Snake.swift */,
+				B03A24371CC60EBA00DDE48A /* Turtle.swift */,
+			);
+			name = reptiles;
+			sourceTree = "<group>";
+		};
+		B03A24171CC6085800DDE48A /* birds */ = {
+			isa = PBXGroup;
+			children = (
+				B03A24181CC6086300DDE48A /* Chick.swift */,
+				B03A242B1CC60BF400DDE48A /* Owl.swift */,
+				B03A242F1CC60C9D00DDE48A /* Penguin.swift */,
+			);
+			name = birds;
+			sourceTree = "<group>";
+		};
+		B03A241C1CC6092800DDE48A /* arthropods */ = {
+			isa = PBXGroup;
+			children = (
+				B03A241D1CC6094E00DDE48A /* Crab.swift */,
+			);
+			name = arthropods;
+			sourceTree = "<group>";
+		};
+		B03A24211CC609E100DDE48A /* fish */ = {
+			isa = PBXGroup;
+			children = (
+				B03A24221CC60A5200DDE48A /* Fish.swift */,
+				B03A24331CC60E3B00DDE48A /* Seahorse.swift */,
+			);
+			name = fish;
+			sourceTree = "<group>";
+		};
+		B03A24241CC60AC600DDE48A /* amphibians */ = {
+			isa = PBXGroup;
+			children = (
+				B03A24251CC60AD700DDE48A /* Frog.swift */,
+			);
+			name = amphibians;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +401,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03A242E1CC60C7100DDE48A /* Panda.swift in Sources */,
+				B03A241E1CC6094E00DDE48A /* Crab.swift in Sources */,
+				B03A24191CC6086300DDE48A /* Chick.swift in Sources */,
+				B03A240F1CC6072A00DDE48A /* Amphibian.swift in Sources */,
+				B03A24021CC547A600DDE48A /* Mammal.swift in Sources */,
+				B03A240B1CC603F000DDE48A /* Bird.swift in Sources */,
+				B03A24141CC607EB00DDE48A /* Alligator.swift in Sources */,
 				B03A23D41CC53D3C00DDE48A /* ViewController.swift in Sources */,
+				B03A24061CC5F80800DDE48A /* Cat.swift in Sources */,
+				B03A243C1CC60F1B00DDE48A /* Zebra.swift in Sources */,
+				B03A24281CC60B7400DDE48A /* Giraffe.swift in Sources */,
+				B03A24161CC6082900DDE48A /* Bunny.swift in Sources */,
+				B03A24111CC6075000DDE48A /* FishClass.swift in Sources */,
+				B03A24321CC60E0C00DDE48A /* Pig.swift in Sources */,
+				B03A24201CC6099700DDE48A /* Elephant.swift in Sources */,
+				B03A24231CC60A5200DDE48A /* Fish.swift in Sources */,
+				B03A24301CC60C9D00DDE48A /* Penguin.swift in Sources */,
 				B03A23D21CC53D3C00DDE48A /* AppDelegate.swift in Sources */,
+				B03A242C1CC60BF400DDE48A /* Owl.swift in Sources */,
+				B03A24341CC60E3B00DDE48A /* Seahorse.swift in Sources */,
+				B03A243A1CC60EE800DDE48A /* Whale.swift in Sources */,
+				B03A24261CC60AD700DDE48A /* Frog.swift in Sources */,
+				B03A240D1CC6047800DDE48A /* Reptile.swift in Sources */,
+				B03A241B1CC608D900DDE48A /* Arthropod.swift in Sources */,
+				B03A24041CC5F75F00DDE48A /* Dog.swift in Sources */,
+				B03A24381CC60EBA00DDE48A /* Turtle.swift in Sources */,
+				B03A24001CC544F700DDE48A /* Animal.swift in Sources */,
+				B03A24361CC60E6A00DDE48A /* Snake.swift in Sources */,
+				B03A242A1CC60BBE00DDE48A /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +656,7 @@
 				B03A23F81CC53D3C00DDE48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B03A23F91CC53D3C00DDE48A /* Build configuration list for PBXNativeTarget "babybadassTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +665,7 @@
 				B03A23FB1CC53D3C00DDE48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B03A23FC1CC53D3C00DDE48A /* Build configuration list for PBXNativeTarget "babybadassUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +674,7 @@
 				B03A23FE1CC53D3C00DDE48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

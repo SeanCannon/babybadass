@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +18,58 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-blue-watercolor" translatesAutoresizingMaskIntoConstraints="NO" id="phu-Bl-Tzj">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="group" translatesAutoresizingMaskIntoConstraints="NO" id="1F9-jl-qlN">
+                                <rect key="frame" x="105" y="117" width="390" height="391"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1F9-jl-qlN" secondAttribute="height" multiplier="390:391" id="4mq-YI-aTS"/>
+                                    <constraint firstAttribute="width" secondItem="1F9-jl-qlN" secondAttribute="height" multiplier="390:391" id="58u-NT-pSY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BABY BADASS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="lLA-XS-xba">
+                                <rect key="frame" x="158" y="56" width="285" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lLA-XS-xba" secondAttribute="height" multiplier="19:8" id="g5q-qs-vbq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="40"/>
+                                <color key="textColor" red="0.81176470588235294" green="0.43137254901960786" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.98039215690000003" green="0.75686274509999996" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="g5q-qs-vbq"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1F9-jl-qlN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-30" id="4Yp-MI-QLB"/>
+                            <constraint firstItem="lLA-XS-xba" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="CPq-yB-NNH"/>
+                            <constraint firstAttribute="trailing" secondItem="1F9-jl-qlN" secondAttribute="trailing" constant="-30" id="Dne-D3-YTo"/>
+                            <constraint firstItem="1F9-jl-qlN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="85" id="IDi-1N-C9B"/>
+                            <constraint firstItem="lLA-XS-xba" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="20" id="KtL-iT-nNQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1F9-jl-qlN" secondAttribute="bottom" constant="92" id="QMw-eR-LTC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lLA-XS-xba" secondAttribute="trailing" constant="20" id="Ww4-Fq-Qi4"/>
+                            <constraint firstAttribute="trailing" secondItem="phu-Bl-Tzj" secondAttribute="trailing" id="XPd-nJ-yR0"/>
+                            <constraint firstItem="phu-Bl-Tzj" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bmZ-jx-EyZ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1F9-jl-qlN" secondAttribute="bottom" constant="-20" id="jTZ-9M-70k"/>
+                            <constraint firstItem="phu-Bl-Tzj" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kq8-OR-GJZ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="phu-Bl-Tzj" secondAttribute="bottom" id="r7l-il-YsM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1F9-jl-qlN" secondAttribute="trailing" constant="85" id="vie-06-PVs"/>
+                            <constraint firstItem="1F9-jl-qlN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zzY-bg-rCx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IDi-1N-C9B"/>
+                                <exclude reference="vie-06-PVs"/>
+                                <exclude reference="QMw-eR-LTC"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +77,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg-blue-watercolor" width="2480" height="2480"/>
+        <image name="group" width="2480" height="2480"/>
+    </resources>
 </document>
